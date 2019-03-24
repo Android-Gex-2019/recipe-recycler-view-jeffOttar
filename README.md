@@ -14,7 +14,7 @@
 * the ingrdiants and directions should have titles
 * the ingrediants and directions should be in a scrollView
 
-The image is given to you by the DataProvider in the from of a URL. On of the easiest ways to work with images in Android is with the Picasso library. Inorder to use the Picasso library you must 
+The image is given to you by the DataProvider in the from of a URL. One of the easiest ways to work with images in Android is with the Picasso library. In order to use the Picasso library you must 
 
 Add the Picasso dependency to your build.gradle (Module: app)  
   	```implementation 'com.squareup.picasso:picasso:2.71828'```   
@@ -32,7 +32,7 @@ To display the image **recipe.image** with the imageView *imageView*.
 .error(R.drawable.ic_launcher_background)
 .into(imageView);
 ```
-	
+
 
 * COMMENTS
 	* You must have a header comment with your name and the date in every file that you modify
