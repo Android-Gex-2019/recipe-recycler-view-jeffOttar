@@ -64,13 +64,13 @@ public class details extends AppCompatActivity {
             TextView ingredients = findViewById(R.id.detail_ingredients);
             ingredients.setText(recipe.ingredients);
 
-            ImageView image = findViewById(R.id.image);//set up image
-//            Picasso.get()
-//                    .load(recipe.image)
-//                    .fit()
-//                    .placeholder(R.drawable.ic_launcher_background)
-//                    .error(R.drawable.ic_launcher_background)
-//                    .into(image);
+            ImageView image = findViewById(R.id.detail_image);//set up image
+            Picasso.get()
+                    .load(recipe.image)
+                    .fit()
+                    .placeholder(R.drawable.ic_launcher_background)
+                    .error(R.drawable.ic_launcher_background)
+                    .into(image);
 
         }
 
